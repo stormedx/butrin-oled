@@ -1,0 +1,39 @@
+{
+  "name": "butrin-oled",
+  "displayName": "Butrin OLED",
+  "description": "The high contrast alternative to Butrin. Perfect for OLED screens.",
+  "publisher": "stormedx",
+  "icon": "media/butrin_oled.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stormedx/butrin-oled.git"
+  }
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "High Contrast",
+    "VScode Theme",
+    "OLED Theme",
+    "OLED",
+    "Butrin",
+    "butrin-theme",
+    "Coding",
+    "Dark Mode",
+    "Color Scheme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Butrin OLED",
+        "uiTheme": "hc-black",
+        "path": "./themes/Butrin OLED-color-theme.json"
+      }
+    ]
+  }
+}
